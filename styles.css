@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: green;
+    padding: 30px; 
+    margin: 20px auto; /* Center the container */
+    float: left;
+    text-align: center; /* Center the contents of the container */
+    margin-left: 40px; /* Add some margin to the left */
+}
+
+
+
+.vertical-table {
+    margin: 0;
+    border-spacing: 50px;
+}
+
+.vertical-table tr {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.vertical-table td {
+    display: block;
+    padding: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.favorites { background-color: red; }
+.spots { background-color: blue; }
+.skills { background-color: yellow; }
+.home { background-color: grey; }
+
+.vertical-table a {
+    text-decoration: none;
+    font-size: 50px; /* Increased font size */
+    color: white;
+}
