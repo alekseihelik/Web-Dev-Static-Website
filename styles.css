@@ -13,6 +13,55 @@ p {
     text-align: left;
 }
 
+.skill {
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.swimming {
+    float: right;
+    clear: right; 
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.prospect {
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.prospect-desc {
+    float: right;
+    clear: right; 
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.calvert {
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute;
+    top: 84%;
+    right:18%;
+
+}
+
+.calvert-desc {
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top:99%;
+    right:16%;
+}
+
 ul {
     font-size: 30px;
     font-weight: bold;
@@ -32,9 +81,19 @@ ul {
 
 .container2 {
     background-color: green;
+    position: absolute;
+    top: 20%;
+    left: 2%;
     padding: 30px; 
-    margin: 70px auto; /* Centers the container */
+    margin: 70px auto; 
     float:left;
+}
+
+.container2 {
+    background-color: green;
+    padding: 30px; 
+    margin: 70px auto; 
+    float: left;
 }
 
 .vertical-table {
@@ -73,8 +132,9 @@ ul {
 }
 
 .vidgame {
-    margin-top: 10px;
-    margin-left: 50px;
+    position:absolute;
+    top: 30%;
+    right: 40%;
 }
 
 .bike {
@@ -82,4 +142,9 @@ ul {
     margin-left: 40px;
     width: 200px;
     height: 150px;
+}
+
+.beach {
+    width: 400px;
+    height: 300px;
 }
