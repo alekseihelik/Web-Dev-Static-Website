@@ -1,18 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Papyrus, fantasy;
     text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/flat-lovely-spring-landscape-wallpaper_23-2148828258.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 .container {
     background-color: green;
     padding: 30px; 
-    margin: 20px auto; /* Center the container */
+    margin: 70px auto; /* Centers the container */
     float: left;
-    text-align: center; /* Center the contents of the container */
-    margin-left: 40px; /* Add some margin to the left */
+    text-align: center; /* Centers the contents of the container */
+    margin-left: 310px; 
 }
 
-
+.container2 {
+    background-color: green;
+    padding: 30px; 
+    margin: 70px auto; /* Centers the container */
+    float: left;
+    text-align: center; /* Centers the contents of the container */
+}
 
 .vertical-table {
     margin: 0;
@@ -21,26 +31,25 @@ body {
 
 .vertical-table tr {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .vertical-table td {
     display: block;
     padding: 25px;
-    border: 1px solid #ccc;
+    border: 1px solid #a6eeba;
     text-align: center;
-    font-size: 50px;
 }
-
-
 
 .favorites { background-color: red; }
 .spots { background-color: blue; }
-.skills { background-color: yellow; }
+.skills { background-color: rgb(233, 233, 100); }
 .home { background-color: grey; }
 
 .vertical-table a {
     text-decoration: none;
-    font-size: 50px; /* Increased font size */
-    color: white;
+    font-size: 40px; 
+    color: rgb(229, 138, 245);
 }
+
+
